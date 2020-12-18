@@ -1,0 +1,318 @@
+
+
+#title {
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+#brnd {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5rem;
+    padding-left: 18px;
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 85px;
+    padding-bottom: 0px;
+}
+
+.nav-item {
+    padding: 0px 14px;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+   
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    width: 10%;
+    background-color: transparent;
+    border-top: 7px dotted #c39f50;
+    margin: 10px auto 20px auto;
+
+}
+
+.gold-h2 {
+    color: #c39f50;
+}
+
+#title-text {
+    line-height: 1.5;
+}
+
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #c39f50;
+}
+
+
+
+#first-part {
+    padding: 3% 10%;
+}
+
+#features {
+    padding: 3% 10%;
+    background-color: #e6e6e6;
+}
+
+.feature-title {
+    color: black;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+#terr:hover {
+
+    background-color: red;
+    background-image: linear-gradient(90deg, rgba(203,160,65,1) 0%, rgba(236,214,166,1) 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.download-button {
+    margin: 3% 5% 3% 0%;
+}
+
+.text-features {
+    padding-top: 10px;
+}
+
+.feature-img {
+    width: 150px;
+    border-radius: 10%;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.features-p  {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: 500;
+}
+
+
+#download {
+    background-color: black;
+    padding: 3% 10%;
+}
+
+.text-download {
+    padding-top: 150px;
+}
+
+
+
+.download-p {
+    color: #c39f50;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.down-butt {
+    margin: 30% 5% 3% 0%;
+}
+
+
+
+
+.card-container{
+	width: 18rem;
+	perspective: 200rem;
+    height: 660px;
+    padding: 0px 13px;
+}
+
+.card-container:hover .card-front{
+	transform: rotateY(180deg);
+}
+
+.card-container:hover .card-back{
+	transform: rotateY(0deg);
+}
+
+.card-back{
+	transform: rotateY(180deg);
+}
+
+.card{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transition: all 0.9s;
+	backface-visibility: hidden;
+}
+
+.card-back .card-body{
+	position: relative;
+}
+
+.card-body a{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin: -15% 0 0 -23%;
+}
+
+.pricing-img {
+    background-color: burlywood;
+}
+
+
+#pricing {
+    padding: 3% 10%;
+    background-color: #e6e6e6;
+}
+
+.back-crd {
+    background-color: rgb(245, 240, 231);
+}
+
+
+#footer {
+    background-color: #212529;
+    padding: 3% 4% 3% 4%;
+    text-align: center;
+}
+
+
+.foot-icn {
+    color: #c39f50;
+    padding: 0% 0.5%;
+}
+
+.foot-icn:hover {
+    color: #8b7138;
+}
+
+
+.copyright-text {
+    color: whitesmoke;
+    padding-top: 40px;
+    position: relative;
+    top: 30px;
+}
+
+@media (max-width: 1000px) {
+    .text-first-p {
+        text-align: center;
+    }
+
+    .caro-first-p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .feature-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 4px;
+    }
+
+    .features-p  {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+    
+    .down-butt {
+        margin: 10% 2% 3% 0%;
+    }
+}
+
+@media (max-width: 750px) {
+    .text-download {
+        padding-top: 0px;
+    }
+
+}
+
+
+.col-s-12{
+    min-width: 100px;
+}
+
+
+@media (max-width: 375px) {
+    
+
+    .down-butt {
+        margin: 10% 3% 3% 0%;
+    }
+
+    .card-container{
+        padding: 0px;
+    }
+
+    .foot-icn {
+        padding: 5% 3% 0% 3%;
+    }
+    
+    #pricing {
+        padding-bottom: 15%;
+    }
+
+    
+    .copyright-text {
+        color: whitesmoke;
+        padding-top: 40px;
+        position: relative;
+        top: 25px;
+    }
+
+    .caro-first-p {
+        padding-top: 40px;
+    }
+
+    #title {
+        padding-bottom: 10%;
+    }
+
+    .feature-img {
+        width: 100px;
+        border-radius: 10%;
+        background-color: whitesmoke;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .features-p  {
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .feature-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 4px;
+    }
+}
