@@ -1,1 +1,1 @@
-TinDog Starting Files
+Stera Starting Files
